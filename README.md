@@ -15,3 +15,7 @@ git clone https://github.com/mewmix/antelope-docker-minimal
 
 docker run --rm -it --platform linux/amd64 
 
+## run nodeos snapshot single chain mode 
+
+nodeos -e -p eosio --plugin eosio::chain_api_plugin --snapshot C0Iu6.bin
+
